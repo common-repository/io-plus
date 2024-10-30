@@ -1,0 +1,30 @@
+.oi_plus_options_page_settings table td{
+	padding-right: 10px;
+	text-align: left;
+}
+
+.oi_plus_options_page_settings .iop_tabs{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: solid 1px #444;
+}
+.oi_plus_options_page_settings .iop_tabs .iop_tab{
+	width: 50%;
+	cursor: pointer;
+	text-align:center;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 15px 0px;
+	border: solid 1px #aaa;
+	margin-top: 5px;
+	border-radius: 5px 5px 0px 0px;
+}
+.oi_plus_options_page_settings .iop_tabs .iop_tab.active{
+	background: #fff;
+}
+.iop_tabs_view{
+	display: none;
+}
+.iop_tabs_view.active{
+	display: block;
+}

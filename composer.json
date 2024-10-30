@@ -1,0 +1,15 @@
+{
+    "name": "bogdan/io-plus",
+    "authors": [
+        {
+            "name": "maslybs",
+            "email": "maslybs@ukr.net"
+        }
+    ],
+    "require": {
+        "rilwis/meta-box": "^4.18",
+        "hybridauth/hybridauth": "^3.4",
+        "fpdf/fpdf": "^1.82",
+        "chillerlan/php-qrcode": "^3.3"
+    }
+}
